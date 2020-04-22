@@ -5,6 +5,13 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
+  path: content\gallery\anygalleryname
+  label: anygalleryname
+  create: all
+  match: "**/*"
+- type: heading
+  label: Headings
+- type: directory
   path: config/_default/content
   label: Pages
   create: all
